@@ -58,4 +58,7 @@ console.log(_.every([1,2,1,1],(value)=>{
 
 console.log(_.some([1,1,1,2],(value)=>{
     return value == 2;
-})); // returns true when at least one condition is satified  works like "OR" operation
+})); // returns true when at least one condition is satified  works like "OR" operation 
+
+console.log(_.pluck(movies,"name"));
+//extracts propery inside array elements and returns array of value of property
