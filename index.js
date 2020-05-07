@@ -62,3 +62,7 @@ console.log(_.some([1,1,1,2],(value)=>{
 
 console.log(_.pluck(movies,"name"));
 //extracts propery inside array elements and returns array of value of property
+
+console.log(_.max([34,1,434,123,1441,112,5656,4546],(value)=>{
+    return value;
+}));        //return element with max value
