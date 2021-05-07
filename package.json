@@ -21,6 +21,6 @@
   },
   "homepage": "https://github.com/thorve-shubham/NodeUnderscore#readme",
   "dependencies": {
-    "underscore": "^1.10.2"
+    "underscore": "^1.12.1"
   }
 }
